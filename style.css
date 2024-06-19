@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.main-2 {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.main-2 h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: white;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 2rem;
+
+  font-weight: 300;
+}
+
+.navbar li {
+  border: rgb(249, 115, 22) solid 2px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+hr {
+  height: 5px;
+  margin-top: 2rem;
+  color: rgb(249, 115, 22);
+  background-color: rgb(249, 115, 22);
+  border: rgb(249, 115, 22) solid 3px;
+  border-radius: 10px;
+}
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar li:hover {
+  background-color: white;
+  color: black;
+  border: black solid 2px;
+}
+
+/* maggi page */
+
+.mag-1 {
+  background-color: rgb(33, 33, 33);
+  color: white;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.mag-2 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.mag-2 h1 {
+  text-align: center;
+  padding: 2rem 0;
+  border: solid 2px;
+
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+
+
+.mag-2 li{
+    line-height: 4rem;
+}
+
+/* sandwich */
+
+.sand{
+    background-color:  rgb(33, 33, 33);
+    color: white;
+    
+}
+
+
+main{
+
+    width: 50%;
+    margin: 0 auto;
+
+
+}
+
+header{
+    text-align: center;
+    font-size: 1.5rem;
+padding: 2rem 0;
+}
+
+
+.ingr{
+margin: 2rem 0;
+font-size: 1.3rem;
+line-height: 3rem;
+}
+
+.opt-ingr{
+
+margin: 2rem 0;
+font-size: 1.3rem;
+line-height: 3rem;
+}
+
+.inst{
+margin: 2rem 0;
+font-size: 1.3rem;
+line-height: 3rem;
+
+
+
+}
+
+
+.per{
+    font-size:1.2rem;
+    word-spacing: 0.3rem;
+}
+
